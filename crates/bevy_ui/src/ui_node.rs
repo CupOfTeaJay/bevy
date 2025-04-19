@@ -312,7 +312,7 @@ impl From<Vec2> for ScrollPosition {
 #[cfg_attr(
     feature = "serialize",
     derive(serde::Serialize, serde::Deserialize),
-    reflect(Serialize, Deserialize)
+    reflect(Serialize, Deserialize),
     serde(default)
 )]
 pub struct Node {
